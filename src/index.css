@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cutive Mono', monospace;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Cutive Mono', monospace;
+  margin: 0;
+  padding: 0;
+  background: #33333D;
+  position: relative;
+}
+/* Footer */
+.footer{
+  width: 100%;
+  height: 20px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+}
+
+.content{
+  width: 100%;
+  height: 100vh;
+}
+
+.align_center{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.page_title{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.form{
+  margin-top: 80px;
+}
+
+.input_area{
+  width: 300px;
+  height: 30px;
+  background-color: #35353F;
+  border: none;
+  border-bottom: 2px solid #3D3D49;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: .2s;
+}
+
+.input_area:focus{
+  border-bottom: 2px solid #C3F73A;
+}
+
+.btn{
+  color: white;
+  background-color: #3D3D49;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn:active{
+  transform: scale(.9);
+}
+
+.fast_link{
+  text-decoration: none;
+  color: #C3F73A;
+}
+.error_out{
+  color: red;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
